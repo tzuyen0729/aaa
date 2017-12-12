@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         var angle = sender.value
         var radian = angle * .pi / 180
         imagEffectWithHue(radian: CGFloat(radian))
-        print("111")
+        print("222")
     }
     
     func imagEffectWithHue(radian: CGFloat) {
