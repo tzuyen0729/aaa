@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE777A261FCB10FC007F6D32 /* bg18.png in Resources */ = {isa = PBXBuildFile; fileRef = CE777A251FCB10FC007F6D32 /* bg18.png */; };
 		CEE85D371FA757630020772C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE85D361FA757630020772C /* AppDelegate.swift */; };
 		CEE85D391FA757630020772C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE85D381FA757630020772C /* ViewController.swift */; };
 		CEE85D3C1FA757630020772C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE85D3A1FA757630020772C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE777A251FCB10FC007F6D32 /* bg18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg18.png; sourceTree = "<group>"; };
 		CEE85D331FA757630020772C /* aaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE85D361FA757630020772C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEE85D381FA757630020772C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +37,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE777A221FCB06E0007F6D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEE85D2A1FA757620020772C = {
 			isa = PBXGroup;
 			children = (
 				CEE85D351FA757630020772C /* aaa */,
 				CEE85D341FA757630020772C /* Products */,
+				CE777A221FCB06E0007F6D32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +64,7 @@
 		CEE85D351FA757630020772C /* aaa */ = {
 			isa = PBXGroup;
 			children = (
+				CE777A251FCB10FC007F6D32 /* bg18.png */,
 				CEE85D361FA757630020772C /* AppDelegate.swift */,
 				CEE85D381FA757630020772C /* ViewController.swift */,
 				CEE85D3A1FA757630020772C /* Main.storyboard */,
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE85D411FA757630020772C /* LaunchScreen.storyboard in Resources */,
+				CE777A261FCB10FC007F6D32 /* bg18.png in Resources */,
 				CEE85D3E1FA757630020772C /* Assets.xcassets in Resources */,
 				CEE85D3C1FA757630020772C /* Main.storyboard in Resources */,
 			);
